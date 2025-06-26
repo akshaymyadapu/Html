@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>forms</title>
+    </head>
+    <body>
+        <center>
+            <a href="https://upload.wikimedia.org/wikipedia/en/0/05/TSRTC_LOGO.png"><img src="./TSRTC_LOGO (1).png" width="50"></a>
+            <br>
+            <h1>TELANGANA STATE TRANSPORT DEPARTMENT</h1>
+            <h2 style="color: black;">General Buspass Application</h2>
+        </center>
+        <fieldset>
+            <legend style="background-color: cyan;">Applicant Details</legend>
+            <table cellspacing="12" cellpadding="12">
+                <tr>
+                    <td>
+                        <label for="Firstname">Firstname<span style="color: red;">*</span></label>
+                        <input type="text" id="Firstname" name="Firstname" required autofocus title="Fill the name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    </td>
+                    </td>
+                    <td>
+                        <label for="Lastname">Lastname<span style="color: red;">*</span></label>
+                        <input type="text" id="Lastname" name="Lastname" required autofocus title="Fill the name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="Date of birth">Date of birth<span style="color: red;">*</span></label>
+                        <input type="date" id="Date of birth" name="Date of birth" required autofocus>
+                    </td>
+                    <td>
+                        <label for="gender">Gender<span style="color: red;">*</span></label>
+                        <input type="radio" id="gender" name="gender">Female
+                        <input type="radio" id="gender" name="gender">Male
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Age">Age As On</label>
+                        <input type="text" placeholder="Year" size="2">
+                        <input type="text" placeholder="Month" size="2">
+                        <input type="text" placeholder="Date" size="2">
+                    </td>
+                    <td>
+                        <label for="Num">Aadhar Number</label>
+                        <input type="number" id="num" name="Aadhar number" required autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number">WhatsApp No<span style="color: red;">*</span></label>
+                        <input type="number" id="number" name="WhatsApp No" required autofocus>
+                    </td>
+                    <td>
+                        <label for="E-mail">Email<span style="color: red;">*</span></label>
+                        <input type="email" id="email" name="Email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Photo">Photo <span style="color: red;">*</span></label>
+                        <input type="file" id="photo" name="photo" required autofocus>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend style="background-color: cyan;">Residential Address Details</legend>
+            <table cellspacing="12" cellpadding="12">
+                <tr>
+                    <td>
+                        <label for="Applicant Address">Applicant address<span style="color: red;">*</span></label>
+                        <textarea id="Applicant address" name="Applicant address required autofocus"></textarea>
+                    </td>
+                    <td>
+                        <label for="District">District<span style="color: red;">*</span></label>
+                        <select name="District" id="District">
+                            <option value="Medchal">Medchal</option>
+                            <option value="warangal">warangal</option>
+                            <option value="vikarabad"> vikarabad</option>
+                            <option value="warangal"> warangal</option>
+                            <option value="Khammam"> Khammam</option>
+                            <option value="karimnagar"> karimnagar</option>
+                            <option value="Jagital">Jagital</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Mandal">Mandal<span style="color: red;">*</span></label>
+                        <select name="Mandal" id="Mandal">
+                            <option value="Metpally">Metpally</option>
+                            <option value="Korutla">Korutla</option>
+                            <option value="Kukatpally">Kukatpally</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="village">village<span style="color: red;">*</span></label>
+                        <select name="village" id="village">
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="kompally">kompally</option>
+                            <option value="Raidurg">Raidurg</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pincode">pincode<span style="color: red;">*</span></label>
+                        <input type="number" id="pincode" name="pincode" required>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>            
+        </fieldset>
+    <fieldset>
+        <legend style="background-color: cyan;">Passtype Details</legend>
+    
+    
+        City: <select name="city" id="city">
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="secunderabad">secunderabad</option>
+        <option value="warangal">warangal</option>
+        <option value="Metpally">Metpally</option>
+        </select><br><br
+    <select>
+        Pass Type:<select name="pass type"  id="pass type">
+        <option value="1 Month">1 Month</option>
+        <option value="3 Month">3 Month</option>
+        <option value="6 Month">6 Month</option>
+        <option value="1 year">1 year</option>
+    </select><table>
+    </table> 
+    </fieldset><br>
+    <fieldset>
+    <legend style="background-color: cyan;">MODE OF PAYMENT AND PASS COLLECTION</legend>
+    
+        Mode of Payment: <select type="mode of payment" value="mode of payment">
+            <option value="cash">cash</option>
+            <option value="Goggle pay">Goggle pay</option>
+            <option value="Phone pay">Phone pay</option>
+            <option value="PayTm">PayTm</option>
+
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Pass Delivery Mode: <select type="Pass DElivery Mode" value="Pass DElivery Mode">
+            <option value="online">online</option>
+            <option value="offline">offline</option>
+        </select><br><br>
+        Delivery Center: <br><br><input type="radio" name="delevery">kompally<br><input type="radio" name="delevery">Kukatpally<br><input type="radio" name="delevery">KPHB Phase1<br><input type="radio" name="delevery">Jntu<br><table>
+        </fieldset>
+        <hr>
+    <center>
+    <h2>CAPTCHA Code</h2>
+    <b style="font-size: 24px; letter-spacing: 3px; background-color: #e0e0e0; padding: 5px;">Apk281G</b>
+    <br>
+    <button>🔄 Refresh CAPTCHA</button>
+    <br>
+    <input type="text" placeholder="Enter the code above">
+    <br>
+    </center>
+
+    <center><h1>
+        <input type="button" value="click">
+        <input type="reset" value="reset">
+        <input type="submit">
+        </h1>
+    </center>
+    </body>
+</html>
